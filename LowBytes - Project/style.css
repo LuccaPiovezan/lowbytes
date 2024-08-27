@@ -1,0 +1,443 @@
+
+
+body{
+
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e7e7e7;
+    padding-top: 90px;
+    color: #cecece;
+}
+
+.nav-link{
+    color: white;
+    font-size: 1.2em;
+}
+
+.nav-link:hover{
+  color: #c5c5c5;
+
+}
+
+
+.hamburguer{
+
+  color: #c5c5c5!important;
+}
+
+.home{
+
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #000000;
+  opacity: 80%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+#solucoes-btn{
+
+  font-size: 1.2em;
+}
+
+#solucoes-btn:hover{
+
+  color: #c5c5c5!important;
+  
+}
+
+#btn-header:hover{
+
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  box-shadow: 1px;
+  transform: scale3d(1.1, 1.1, 1);
+
+}
+
+#btn-header{
+
+  font-size: 1.2em;
+  margin-left: 15px;
+  transition: 0.5s;
+}
+
+#dropdown-header{
+  background-color: #cecece;
+}
+
+.dropdown-p{
+
+  color: blueviolet!important;
+}
+
+
+
+/*Finaliza Header*/
+
+/*Home*/
+
+
+
+.video-home {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  margin-top: 0;
+  
+}
+
+
+/*Finaliza Home*/
+
+
+.title-crie-chats{
+
+  text-align: center;
+  color: #000000;
+  margin: 5%;
+}
+
+.plataformas-canais{
+
+  display: flex;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/*About*/
+
+#card-pilares{
+  background: linear-gradient(#0a063b, #4c4d5f);
+  border-radius: 10px;
+}
+
+.pilares{
+
+  color: #0a063b;
+  font-size: 2em;
+  text-align: center;
+  margin-top: 2%;
+}
+
+.card-others{
+  
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.title-aboutUs{
+
+  font-size: 3em;
+  color: #0a063b;
+  text-align: center;
+  margin-top: 5%;
+}
+
+#div-about{
+  margin: 5%;
+  margin-top: 0;
+}
+
+.title-about{
+  font-size: 2em;
+  color: #000000;
+}
+
+#card-about{
+
+  background-color: #e7e7e7 ;
+}
+
+.text-about{
+  color: #000000;
+}
+
+#fotos-about{
+
+  width: 100%;
+  height: 100%;
+}
+
+.video-about{
+
+  width: 100%;
+  height: 100%;
+}
+
+/*Finaliza About*/
+
+/*Plataformas e Canais*/
+
+.plataformas-canais{
+  text-align: center;
+  color: #0a063b;
+  font-size: 3em;
+  margin-top: 5%;
+  
+}
+
+.cards-plataformas{
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 5%;
+}
+
+.card-plataform{
+  border: 2px;
+  border-radius: 10px;
+  border-color: #0a063b;
+  transition: 0.3s;
+  color: #ffffff;
+
+  background: linear-gradient(#0a063b, #4c4d5f);
+  
+}
+
+.card-plataform:hover{
+
+  box-shadow: 0.5px;
+  transform: scale3d(1.1, 1.1, 1);
+}
+/*Finaliza Plataformas e Canais*/
+
+/*Parceiros*/
+
+#card{
+  border-radius: 5px;
+  z-index: 0;
+  transition: 0.5s;
+
+}
+
+#card:hover{
+  transform: scale3d(1.1, 1.1, 1);
+  margin-bottom: 1%;
+  margin-top: 1%;
+}
+
+#brand{
+
+  margin-top: 13%;
+}
+
+#brand-blip{
+
+  margin-top: 18%;  
+}
+
+.parceiros{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+#title-parceiros{
+
+  text-align: center;
+  color: #000000;
+  font-size: 2em;
+  margin-top: 10%;
+}
+/*Finaliza Parceiros*/
+
+
+/*contato*/
+
+.btncontato{
+
+margin-left: 37%;
+}
+
+#contato{
+  justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5%;
+
+}
+
+#card-contato{
+
+  background-color: #0a1126;
+  color: white;
+  border-radius: 5px;
+}
+
+.title-contato{
+
+  font-size: 2em;
+  text-align: center;
+  color: #000000;
+}
+
+#card-title{
+  text-align: center;
+  color: #ffffff;
+}
+
+.check{
+
+ color: #368f45;
+}
+/*finaliza contato*/
+
+/*Politica de Privacidade*/
+
+.politica-title{
+  text-align: center;
+  color: #000000;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+.politica-termos{
+
+  color: #000000;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+/*Finaliza Politica de Privacidade*/
+
+
+/*Perguntas Frequentes*/
+
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+
+
+.termo{
+ margin-bottom: 5%; 
+}
+.faq-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.faq {
+  background-color: transparent;
+  border: 1px solid #9fa4a8;
+  border-radius: 10px;
+  margin: 20px 0;
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s ease;
+}
+
+.faq.active {
+  background-color: #fff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.faq.active::before,
+.faq.active::after {
+  
+  font-family: 'Font Awesome 5 Free';
+  color: #000000;
+  font-size: 7rem;
+  position: absolute;
+  opacity: 0.2;
+  top: 20px;
+  left: 20px;
+  z-index: 0;
+}
+
+.faq.active::before {
+
+  top: -10px;
+  left: -30px;
+  transform: rotateY(180deg);
+}
+
+.faq-title {
+  margin: 0 35px 0 0;
+  color: #0a1126;
+}
+
+.faq-text {
+  display: none;
+  margin: 30px 0 0;
+  color: #0a1126;
+}
+
+.faq.active .faq-text {
+  display: block;
+}
+
+.faq-toggle {
+  background-color: transparent;
+  border: 0;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  padding: 0;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  height: 30px;
+  width: 30px;
+}
+
+.faq-toggle:focus {
+  outline: 0;
+}
+
+.faq-toggle .fa-times {
+  display: none;
+}
+
+.faq.active .faq-toggle .fa-times {
+  color: #fff;
+  display: block;
+}
+
+.faq.active .faq-toggle .fa-chevron-down {
+  display: none;
+}
+
+.faq.active .faq-toggle {
+  background-color: #9fa4a8;
+}
+
+/*Finaliza Perguntas Frequentes*/
+
+/*Footer*/
+
+.footer-page{
+
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.logo{
+  height: 70%;
+  width: 70%;
+}
+
+.hover{
+  color: white;
+}
+.hover:hover{
+  color: #c5c5c5!important;
+  cursor: pointer;
+  text-decoration: none;
+}
+/*Footer*/
+
